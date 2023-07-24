@@ -1,4 +1,9 @@
 * {
+  font-family: "PT Serif", serif;
+}
+
+h1 {
+  font-weight: 300;
 }
 
 html {
