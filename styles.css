@@ -41,9 +41,53 @@ header {
   padding: 80px;
 }
 
+
+
 button {
   border-radius: 15px;
   padding: 8px 25px 8px 25px;
 }
 
-/* hallo */
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #3a1b08; */
+  padding: 30px;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul a {
+  color: rgb(234, 230, 233);
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #181b1b;
+  transition: 0.3s;
+}
+
+
+.menu1 {
+  color: white;
+  background-color: #181b1b;
+}
+
+.menu2 {
+  color: white;
+  background-color: #3a1b08;
+}
+
+footer {
+  font-style:normal;
+  color: rgba(255, 255, 255, 0.878);
+  background-color: #181b1b;
+}
+
+
+#logo1 {
+  justify-content: center;
+
+}
