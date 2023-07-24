@@ -73,6 +73,8 @@ header {
   font-size: 2.5rem;
 }
 
+
+
 button {
   border-style: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -95,4 +97,55 @@ article {
   background-repeat: no-repeat;
   background-image: url(https://www.mercedes-benz.com/content/dam/brandhub/assets/sustainability/responsibility/pride/homepage-stage/06-2023/images/mercedes-benz-pride-campaign-homepage-stage-3840x2160-06-2023.cbv20230630081850.jpg/_jcr_content/renditions/mq8-original-aspect.jpeg);
   background-size: cover;
+}
+
+
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #3a1b08; */
+  padding: 30px;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul a {
+  color: rgb(234, 230, 233);
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #181b1b;
+  transition: 0.3s;
+}
+
+
+.menu1 {
+  color: white;
+  background-color: #000000;
+}
+
+.menu2 {
+  color: white;
+  background-color: #3a1508;
+}
+
+footer {
+  font-style:normal;
+  color: rgba(255, 255, 255, 0.878);
+  background-color: #000000;
+}
+
+
+#logo1 {
+  justify-content: center;
+  text-align: center;
+
+}
+
+#logo2 {
+  justify-content: center;
+  text-align: center;
+
 }
