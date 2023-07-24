@@ -19,32 +19,37 @@ body {
 
 header {
   background-color: black;
+  height: 15vh;
 }
 
 .key_visual_container {
-  height: 600px;
-
+  height: 85vh;
+  display: flex;
+  align-items: center;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/vision-one-eleven/stage/06-2023/images/mercedes-benz-vision-111-stage-mobile-1080x1920-06-2023.cbv20230606193723.jpg/_jcr_content/renditions/mq2-original-aspect.jpeg");
+  background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/vision-one-eleven/stage/06-2023/images/mercedes-benz-vision-111-stage-3840x2160-06-2023.cbv20230606193723.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg");
   background-size: cover;
 }
 
 .key_visual_text {
   color: white;
-  width: 40%;
+  width: 30%;
   display: flex;
+  padding-left: 70px;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  padding: 80px;
+}
+
+.key_visual_text h1 {
+  font-size: 2.5rem;
 }
 
 button {
   border-style: none;
   font-family: Arial, Helvetica, sans-serif;
-
-  border-radius: 15px;
-  padding: 8px 25px 8px 25px;
+  border-radius: 20px;
+  padding: 9px 25px 9px 25px;
 }
