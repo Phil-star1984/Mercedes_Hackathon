@@ -1,5 +1,8 @@
 * {
   font-family: "PT Serif", serif;
+  font-family: Ethos;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -10,4 +13,35 @@ html {
 }
 
 body {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  background-color: black;
+}
+
+.key_visual_container {
+  height: 600px;
+
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/vision-one-eleven/stage/06-2023/images/mercedes-benz-vision-111-stage-mobile-1080x1920-06-2023.cbv20230606193723.jpg/_jcr_content/renditions/mq2-original-aspect.jpeg");
+  background-size: cover;
+}
+
+.key_visual_text {
+  color: white;
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 8px 25px 8px 25px;
 }
