@@ -81,15 +81,14 @@ button {
 }
 
 article {
-  font-family: MBCorpo Text, sans-serif;
-  font-weight: 800;
-  font-size: larger;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: aliceblue;
   height: 85vh;
   display: flex;
   align-items: center;
   width: 100%;
-  padding-left: 70px;
+  padding-left: 50px;
   margin: none;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,4 +139,21 @@ footer {
 #logo2 {
   justify-content: center;
   text-align: center;
+}
+
+/* Mohamed */
+.greatness {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 85vh;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://www.mercedes-benz.com/content/dam/brandhub/assets/vehicles/mercedes-benz-classics/grand-mercedes/stage/04-2023/images/mercedes-benz-grand-mercedes-stage-3840x2160-04-2023.cbv20230517111016.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg);
+  background-size: cover;
 }
