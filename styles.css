@@ -1,5 +1,5 @@
 * {
-  font-family: "PT Serif", serif;
+  font-family: 'PT Serif', serif;
   font-family: Ethos;
   margin: 0;
   padding: 0;
@@ -18,8 +18,8 @@ img {
 }
 
 nav p {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
   font-weight: 200;
 }
@@ -33,9 +33,6 @@ ul {
 
 li {
   padding: 20px;
-}
-
-html {
 }
 
 body {
@@ -55,7 +52,7 @@ head {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/vision-one-eleven/stage/06-2023/images/mercedes-benz-vision-111-stage-3840x2160-06-2023.cbv20230606193723.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg");
+  background-image: url('https://www.mercedes-benz.com/content/dam/brandhub/assets/innovation/concept-cars/vision-one-eleven/stage/06-2023/images/mercedes-benz-vision-111-stage-3840x2160-06-2023.cbv20230606193723.jpg/_jcr_content/renditions/mq7-original-aspect.jpeg');
   background-size: cover;
 }
 
@@ -140,4 +137,9 @@ footer {
 #logo2 {
   justify-content: center;
   text-align: center;
+}
+
+.text1 {
+  background-color: #000000;
+  color: white;
 }
